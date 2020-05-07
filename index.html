@@ -13,34 +13,38 @@
 
 <body>
  
-    <nav class="navbar navbar-expand-lg navbar-#660066 bg-#660066">
-        <a class="navbar-brand" href="#">M</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="#">Sobre mi <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Experiencia</a>
-            <a class="nav-item nav-link" href="#">Trabajos</a>
-            <a class="nav-item nav-link" href="#">Contacto</a>
-          </div>
-        </div>
-    </nav>
-
+    <navbar>
+        <nav class="navbar navbar-expand-lg navbar-#660066 bg-#660066">
+            <a class="navbar-brand" href="#">M</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Trabajos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+    </navbar>
+   
     <header class= "hero-section">
-        <div class="row align-items-end">
-            <div class="col">
-            </div>
-            <div class="col">
-                <h1>YO SOY<br><hr></h1>
-                <h2 id="magdalena">MAGDALENA</h2>
-            </div>
-            <div class="col">
-            </div>   
+        <h1 class="yo-soy">YO SOY</h1><hr><br>
+        <h2 class="magdalena">MAGDALENA</h2>
+                
     </header>
     <br>
-    <section1>
+    <section>
         <div class="container">
             <div class="row">
               <div class="colprincipal">
@@ -50,30 +54,37 @@
           </div>
         </div>
         <div class="row">
-            <div class="col-sm">
+            <div class="col-sm historia">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
             </div>
-            <div class="col-sm">
+            <div class="col-sm historia">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
             </div>
         </div>
-    </section1>
-    <br>
-    <section2>
-        <h2>MI EXPERIENCIA</h2>
+    </section>
+    <br><br>
+    <section class="experiencia">
         <div class="container">
             <div class="row">
-              <div class="col-sm">
-                <i class="fab fa-empire"></i><br>Stormtrooper<br>1980 - 2014
+                <div class="col-sm">
+                    <h2>MI EXPERIENCIA</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-ml">
+                <i class="fab fa-empire fa-7x"></i><br>Stormtrooper<br>1980 - 2014
               </div>
-              <div class="col-sm">
-                <i class="fab fa-accusoft"></i><br>Desarrolladora Rails<br>2014 - 2018
+              <div class="col-ml">
+                <i class="fab fa-accusoft fa-7x"></i><br>Desarrolladora Rails<br>2014 - 2018
               </div>
             </div>
           </div>
-    </section2>
+        </div>
+    </section>
     <br>
-    <section3 class="trabajos">
+    <section class="trabajos">
         <h2>MIS ÚLTIMOS TRABAJOS</h2><br>
         <div class="container">
             <div class="row">
@@ -132,25 +143,26 @@
               </div>
             </div>
           </div>
-    </section3>
+    </section>
     <br>
-    <section4>
-        <h2>CONTACTO</h2>
+    <section class="contacto">
+        <h2 calls="contacto1">CONTACTO</h2>
+        <br><br>
         <p>¿Quieres conocer más de mi?</p>
         <a class="typeform-share button" href="https://bernarditasepulveda.typeform.com/to/JetVIl" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#373A3C;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:4px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Comenzar </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-    </section4>
+    </section>
 
-    <footer>
+    <footer class="morado">
         <div class="container">
             <div class="row">
               <div class="col-sm">
                 MAGDALENA
               </div>
               <div class="col-sm">
-                <a href="#"><i class="fab fa-github-square fa-5x"></i></a>
-                <a href="#"><i class="fab fa-twitter-square fa-5x"></i></a>
-                <a href="#"><i class="fab fa-linkedin fa-5x"></i></a>
-                <a href="#"><i class="fab fa-facebook-square fa-5x"></i></a>
+                <a href="#"><i class="fab fa-github-square fa-5x redsocial"></i></a>
+                <a href="#"><i class="fab fa-twitter-square fa-5x redsocial"></i></a>
+                <a href="#"><i class="fab fa-linkedin fa-5x redsocial"></i></a>
+                <a href="#"><i class="fab fa-facebook-square fa-5x redsocial"></i></a>
               </div>
             </div>
           </div>
