@@ -1,0 +1,71 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Oswald', bold;
+    font-weight: 550;
+    font-size: 40pt;
+    margin-left: 15%;
+    background-color: #660066 ;
+}
+
+#navbarNavAltMarkup{
+    margin-right: 15%;
+    background-color: #660066;
+    color: white;
+}
+
+nav{
+    background-color: #660066;
+}
+
+hr{
+    border-color: white;
+    border-style: solid;
+}
+
+.hero-section{
+    text-align: center;
+    background-image: url('../img/bg_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 10%;
+}
+
+#magdalena{
+    font-family: 'Oswald', bold;
+    font-weight: 550;
+    font-size: 72pt;
+}
+
+h1{
+    font-family: 'Oswald';
+    font-weight: 80;
+    font-size: 72pt;
+}
+
+.colprincipal{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25pt;
+    color:#373A3C;
+}
+
+@media screen and (min-width:320px) and (max-width:768px){
+    header{
+        text-align: center;
+    }
+    #header_title{
+        font-size: 20pt;
+    }
+    .principal_button{
+        font-size: 8pt;
+    }
+    #newsletter{
+        font-size: 20pt;
+    }
+    #newsletter_second{
+        font-size: 15pt;
+    }
+}
