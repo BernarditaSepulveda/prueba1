@@ -6,12 +6,17 @@ body{
     font-weight: 550;
     font-size: 40pt;
     margin-left: 15%;
-    background-color: #660066 ;
+    color: white;
+    
 }
 
-#navbarNavAltMarkup{
+#navbarNav{
     margin-right: 15%;
     background-color: #660066;
+    color: white;
+}
+
+.nav-link{
     color: white;
 }
 
@@ -45,11 +50,18 @@ h1{
     font-size: 72pt;
 }
 
+.col-texto{
+    padding-top: 30%;
+}
+
 .colprincipal{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 25pt;
     color:#373A3C;
+    margin-top: auto;
+    margin-right: 12%;
+    margin-left: 12%;
 }
 
 i{
