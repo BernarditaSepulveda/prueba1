@@ -64,6 +64,23 @@ h1{
     margin-left: 12%;
 }
 
+.historia{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Open Sans', regular;
+    font-size: 16pt;
+}
+
+.hr2{
+    color: black;
+}
+
+.experiencia{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
 i{
     color: #660066;
     size: 300%;
