@@ -52,6 +52,19 @@ h1{
     color:#373A3C;
 }
 
+i{
+    color: #660066;
+    size: 300%;
+}
+
+h2{
+    text-align: center;
+}
+
+.trabajos { 
+    background-color:#660066;
+}
+
 @media screen and (min-width:320px) and (max-width:768px){
     header{
         text-align: center;
