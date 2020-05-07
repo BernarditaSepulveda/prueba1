@@ -33,13 +33,13 @@ hr{
     border-style: solid;
 }
 
-.yo-soy{
-    font-family: 'Oswald';
+#yo-soy{
+    font-family: 'Oswald', sans-serif;
     font-weight: 200;
     font-size: 72pt;
 }
-.magdalena{
-    font-family: 'Oswald', bold;
+#magdalena{
+    font-family: 'Oswald', bold, sans-serif;
     font-weight: 200;
     font-size: 72pt;
 }
