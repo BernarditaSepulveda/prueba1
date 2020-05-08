@@ -13,43 +13,49 @@
 
 <body>
  
-    <navbar>
-        <nav class="navbar navbar-expand-lg navbar-#660066 bg-#660066">
-            <a class="navbar-brand" href="#">M</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Sobre mi</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Experiencia</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Trabajos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                  </li>
-              </ul>
-            </div>
-        </nav>
-    </navbar>
-   
+    <nav class="navbar navbar-expand-lg navbar-#660066 bg-#660066">
+        <a class="navbar-brand" href="#">M</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#sobremi">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trabajos">Trabajos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
     <header class= "hero-section">
-        <h1 id="yo-soy">YO SOY</h1><hr><br>
-        <h2 id="magdalena">MAGDALENA</h2>           
+        <div class="row align-items-end">
+            <div class="col">
+            </div>
+            <div class="col-texto">
+                <h1>YO SOY<br><hr class=></h1>
+                <h2 id="magdalena">MAGDALENA</h2>
+            </div>
+            <div class="col">
+            </div>   
     </header>
     <br>
-    <section>
+    <section id="sobremi">
         <div class="container">
             <div class="row">
               <div class="colprincipal">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</p><hr>
               </div>
-              <hr>
+              <hr class="hr2">
           </div>
         </div>
         <div class="row">
@@ -61,84 +67,81 @@
             </div>
         </div>
     </section>
-    <br><br>
-    <section class="experiencia">
+    <br>
+    <section class="experiencia" id="experiencia">
+        <h2 class="mi-experiencia">MI EXPERIENCIA</h2>
         <div class="container">
             <div class="row">
-                <div class="col-sm">
-                    <h2>MI EXPERIENCIA</h2>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-              <div class="col-ml">
+              <div class="col-sm">
                 <i class="fab fa-empire fa-7x"></i><br>Stormtrooper<br>1980 - 2014
               </div>
-              <div class="col-ml">
+              <div class="col-sm">
                 <i class="fab fa-accusoft fa-7x"></i><br>Desarrolladora Rails<br>2014 - 2018
               </div>
             </div>
           </div>
-        </div>
     </section>
     <br>
-    <section class="trabajos">
+    <section class="trabajos" id="trabajos">
         <h2>MIS ÚLTIMOS TRABAJOS</h2><br>
         <div class="container">
             <div class="row">
-              <div class="col-sm">
+              <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="assets/img/meet_coffee.png" class="card-img-top" alt="meet and coffe">
+                    <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                      <h5 class="card-title">Meet&Cofee</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                  </div>
+                </div>
               </div>
-              <div class="col-sm">
+              <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="assets/img/iguana_page.png" class="card-img-top" alt="Iguana Page">
+                    <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                      <h5 class="card-title">Iguana Page</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                  </div>
+                </div>
               </div>
-              <div class="col-sm">
+              <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="assets/img/suricata.png" class="card-img-top" alt="Suricata">
+                    <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                      <h5 class="card-title">Ricomida</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <br>
-          <div class="container">
+            <br>
             <div class="row">
-              <div class="col-sm">
+              <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="assets/img/cuppon.png" class="card-img-top" alt="Cuppon">
+                    <img src="assets/img/suricata.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                      <h5 class="card-title">Suricata</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                  </div>
+                </div>
               </div>
-              <div class="col-sm">
+              <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="assets/img/ricomida.png" class="card-img-top" alt="Ricomida">
+                    <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                      <h5 class="card-title">Cuppon</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                  </div>
+                </div>
               </div>
-              <div class="col-sm">
+              <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="assets/img/dmark.png" class="card-img-top" alt="DMark">
+                    <img src="assets/img/dmark.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                      <h5 class="card-title">Dmark</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                  </div>
+                </div>
               </div>
             </div>
           </div>
